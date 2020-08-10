@@ -15,4 +15,4 @@ Koneru Dharma Teja with help from w3 schools and UC Berkley Extension.
 5. Follow the prompts and select the character types you need in your password
 
 # Page Preview
-<p align="center"><img width=100% src="https://github.com/koneruteja/koneruteja.github.io/blob/master/assets/images/web-preview.jpg"></p>
+<p align="center"><img width=100% src="https://github.com/koneruteja/password-generator/blob/master/assets/images/web-preview.jpg"></p>

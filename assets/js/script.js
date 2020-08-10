@@ -10,7 +10,7 @@ var alphaLower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m
 var alphaUpper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
 // Variable Declaration 
-var confirmLength = "";
+var confirmLength;
 var confirmSpecialCharacter;
 var confirmNumericCharacter;
 var confirmUpperCase;
@@ -20,6 +20,11 @@ var confirmLowerCase;
 function generatePassword() {
   // prompt user for password length
   var confirmLength = (prompt("What should be the length of your password?"));
+  if (confirmLength == false) {
+    alert("please click generate again to use the password generator")
+    console.log("exit function enter")
+    return;
+  }
 
 // Making sure the user choice is within the permittable character lengths 
 while(confirmLength <= 7 || confirmLength >= 128) {

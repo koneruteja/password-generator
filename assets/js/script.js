@@ -18,13 +18,13 @@ var confirmLowerCase;
 
 // Main function
 function generatePassword() {
-  // prompt user for password length
-  var confirmLength = (prompt("What should be the length of your password?"));
-  if (confirmLength == false) {
-    alert("please click generate again to use the password generator")
-    console.log("exit function enter")
-    return;
-  }
+// prompt user for password length
+var confirmLength = (prompt("What should be the length of your password?"));
+if (confirmLength == false) {
+  alert("please click generate again to use the password generator")
+  console.log("exit function enter")
+  return;
+}
 
 // Making sure the user choice is within the permittable character lengths 
 while(confirmLength <= 7 || confirmLength >= 128) {
@@ -87,7 +87,7 @@ var confirmUpperCase = confirm("would you like to include uppercase characters? 
       return randomPassword;
 }
 
-// Write password to the #password input
+// Function to write password
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");

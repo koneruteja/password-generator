@@ -51,7 +51,7 @@ var confirmLowerCase = confirm("would you like to include lowercase characters? 
 var confirmUpperCase = confirm("would you like to include uppercase characters? click ok"); 
 } 
 
-      // Assign an action to the password parameters NEED TO FIX THIS
+      // Assign an action to the password parameters
       var passwordCharacters = []
       
     if (confirmSpecialCharacter) {
